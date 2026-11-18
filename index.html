@@ -8,7 +8,7 @@
   body{margin:0;background:#0b0b0e;color:#e8e8ec;font-family:system-ui,-apple-system,Segoe UI,Roboto,sans-serif;line-height:1.6}
   main{max-width:780px;margin:0 auto;padding:40px 20px 80px}
   h1{font-size:34px;margin:0 0 6px} h1 span{color:#f97316}
-  h2{margin-top:40px;font-size:22px;border-bottom:1px solid #26262c;padding-bottom:6px}
+  h3{margin:22px 0 4px;font-size:17px} h2{margin-top:40px;font-size:22px;border-bottom:1px solid #26262c;padding-bottom:6px}
   a{color:#fb923c} .muted{color:#9a9aa5} .card{background:#141418;border:1px solid #26262c;border-radius:12px;padding:16px 20px;margin:14px 0}
   nav a{margin-right:16px}
   code{background:#1d1d24;padding:1px 6px;border-radius:5px}
@@ -18,7 +18,8 @@
 <main>
   <h1>Thr<span>one</span></h1>
   <p class="muted">Research tool for finding popular YouTube video topics · Herramienta para investigar temas virales en YouTube</p>
-  <nav><a href="#about">About</a><a href="#privacy">Privacy Policy</a><a href="#terms">Terms</a><a href="#contact">Contact</a></nav>
+  <nav><a href="#about">About</a><a href="#privacy">Privacy Policy</a><a href="#terms">Terms of Use</a><a href="#contact">Contact</a></nav>
+  <div class="card"><strong>Uses YouTube API Services.</strong> By using Throne you agree to the <a href="https://www.youtube.com/t/terms">YouTube Terms of Service</a>. Read our <a href="#privacy"><strong>Privacy Policy</strong></a> and the <a href="http://www.google.com/policies/privacy">Google Privacy Policy</a>.</div>
 
   <h2 id="about">About Throne</h2>
   <p>Throne is a free, read-only research tool for content creators. It helps a creator discover which video topics are already popular on YouTube so they can plan their own original videos.</p>
@@ -44,6 +45,12 @@
   <p><strong>Data we collect.</strong> Throne does not require an account and does not collect personal information on a server. The app runs in the user's own web browser.</p>
   <p><strong>Data stored on your device.</strong> Settings, saved ideas and the user's own API keys are stored in the browser's local storage on the user's own device. This data is not sent to us. The user can delete it at any time by clearing the browser's site data.</p>
   <p><strong>YouTube API Services.</strong> Throne uses YouTube API Services. By using Throne you agree to be bound by the <a href="https://www.youtube.com/t/terms">YouTube Terms of Service</a>. Google's use of data is described in the <a href="http://www.google.com/policies/privacy">Google Privacy Policy</a>. Throne only requests public video data. Throne does not use OAuth, so no Google or YouTube account data is accessed or stored. Users can review and revoke access to apps connected to their Google account at <a href="https://security.google.com/settings/security/permissions">https://security.google.com/settings/security/permissions</a>.</p>
+  <h3>YouTube API Services</h3>
+  <p>Throne uses YouTube API Services (YouTube Data API v3) to read <em>public</em> video information. By using Throne, you agree to be bound by the <a href="https://www.youtube.com/t/terms">YouTube Terms of Service</a>. Google's handling of data is described in the <a href="http://www.google.com/policies/privacy">Google Privacy Policy</a>. Throne does not use OAuth and does not access, store or share any Google or YouTube account information.</p>
+  <h3>Data retention and deletion</h3>
+  <p>Throne has no servers or databases. Public video results are shown in your browser and are not sent to us. Anything the app saves (settings, saved ideas, your own API key) stays only in your browser's local storage on your device. We do not keep copies. You can delete all of it at any time by clearing this site's data in your browser settings (or by clearing "Local storage" for the site). Cached YouTube API data is not retained beyond your browser session needs and is not stored on any server of ours.</p>
+  <h3>Revoking access</h3>
+  <p>Because Throne does not access your Google account, there is no account access to revoke. You can also review apps connected to your Google account at <a href="https://security.google.com/settings/security/permissions">https://security.google.com/settings/security/permissions</a>.</p>
   <p><strong>Third-party services.</strong> Some optional features (text and voice generation) send the text the user writes to third-party AI services chosen by the user, such as Puter. Those services have their own privacy policies. Do not enter personal or sensitive information into those features.</p>
   <p><strong>Cookies and analytics.</strong> Throne does not use advertising cookies or tracking analytics.</p>
   <p><strong>Children.</strong> Throne is not directed to children under 13.</p>
